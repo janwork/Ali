@@ -1,0 +1,46 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.footer{
+    margin: 0px 0px;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+    border-top-style: solid;
+}
+div.copyright{
+    background-color: black;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #c40000;
+}
+
+div.copyright span.slash{
+    color:white;
+}
+
+div.footer div.copyright div.white_link a{
+    color:white;
+    padding: 0px 5px;
+}
+
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+
+div.license span{
+    color: #a4a4a4;
+}
+
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color:#686868;
+}
+
+img.cateye{
+    margin-left: 20px;
+}
+
+
