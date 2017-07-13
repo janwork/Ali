@@ -112,6 +112,12 @@ div.homepageDiv{
     position: relative;
 }
 
+img.catear{
+    position: absolute;
+    height:15px;
+    display: none;
+}
+
 div.copyright {
     background-color: black;
     border-top-style: solid;
@@ -235,11 +241,6 @@ div.carouselBackgroundDiv{
     padding: 0px;
 }
 
-img.catear{
-    position: absolute;
-    height:15px;
-    display: none;
-}
 
 div.categoryMenu{
     width: 200px;
