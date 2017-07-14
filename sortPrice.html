@@ -10,14 +10,30 @@
 </head>
 <body>
 
-<div class="categoryPageDive">
+<div class="categoryPageDiv">
     <img src="site/category/72.jpg">
     <div class="categorySortBar">
         <table class="categorySortBarTable categorySortTable">
-        <tbody><tr>
-            <td class="grayColumn"><a href="#">综合<span class="glyphicon glyphicon-arrow-down"></span>
+         <tbody>
+        <tr>
+            <td class="grayColumn"><a href="#">综合<span class="glyphicon glyphicon-arrow-down"></span></a></td>
+
+            <td><a href="#">人气<span class="glyphicon glyphicon-arrow-down"></span></a></td>
+            <td><a href="#">新品<span class="glyphicon glyphicon-arrow-down"></span></a></td>
+            <td><a href="#">销售<span class="glyphicon glyphicon-arrow-down"></span></a></td>
+            <td><a href="#">价格<span class="glyphicon glyphicon-resize-vertical"></span></a></td>
         </tr>
         </tbody>
+        </table>
+
+        <table class="categorySortBarTable">
+            <tbody >
+            <tr>
+                <td><input type="text" placeholder="请输入" class="sortBarPrice beginPrice"></td>
+                <td class="grayColumn priceMiddleColumn">-</td>
+                <td><input type="text" placeholder="请输入" class="sortBarPrice endPrice"></td>
+            </tr>
+            </tbody>
         </table>
     </div>
 </div>

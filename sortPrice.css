@@ -1,0 +1,53 @@
+body{
+    font-size: 12px;
+}
+
+div.categoryPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+
+div.categorySortBar{
+    background-color: #faf9f9;
+    margin: 40px 20px 20px 20px;
+    padding-top: 4px;
+}
+
+table.categorySortBarTable{
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+table.categorySortBarTable span.glyphicon{
+    font-size:10px;
+}
+
+table.categorySortBarTable td{
+    height:17px;
+    font-size:12px;
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+table.categorySortBarTable td.grayColumn{
+    background-color: #F1EDEC;
+}
+
+table.categorySortBarTable td a{
+    color:#806f66;
+}
+
+table.categorySortBarTable td a:hover{
+    color: #C40000;
+}
+
+table.categorySortBarTable input{
+    border-width: 0px;
+    height:15px;
+    width:50px;
+}
+
+table.categorySortBarTable td:hover{
+    background-color: #F1EDEC;
+}
