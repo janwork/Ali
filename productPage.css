@@ -1,3 +1,7 @@
+.boldWord{
+    font-weight: bold;
+}
+
 div.imgAndInfo{
     margin:40px 20px;
 }
@@ -6,108 +10,101 @@ div.imgInimgAndInfo{
     float: left;
 }
 
-div.imgInimgAndInfo {
-    padding: 0px 20px;
-    overflow: hidden;;
-}
-
-div.imgAndInfo img.bigImg{
+ img.bigImg{
     width:400px;
     height:400px;
-    padding-left: 20px;
+    padding: 20px;
     border: 1px solid #f2f2f2;
 }
 
-div.imgAndInfo div.smallImageDiv{
+ div.smallImageDiv{
     width: 80%;
     margin: 20px auto;
 }
 
-div.imgAndInfo img.smallImage{
+ img.smallImage{
     width: 60px;
     height:60px;
     border: 2px solid white;
 }
 
-div.imgAndInfo img.smallImage:hover{
+ img.smallImage:hover{
     border: 2px solid black;
 }
 
-div.infoInimgAndInfo div.productTitle{
+ div.productTitle{
     color:black;
     font-size:16px;
     font-weight: bold;
     margin: 0px 10px;
 }
-
-div.infoInimgAndInfo  div.productSubTitle{
+ div.productSubTitle{
     color:#dd2727;
     font-size:12px;
     margin:0px 10px;
     
 }
 
-div.infoInimgAndInfo div.juhuasuan{
+ div.juhuasuan{
     background-color: #2da77a;
     color: white;
     text-align: center;
     line-height: 40px;
     margin-top: 10px;
 }
-
-div.infoInimgAndInfo span.juhuasuanBig{
+ span.juhuasuanBig{
     font-size: 18px;
     font-weight: bold;
     font-family: 黑体;
 }
 
-div.infoInimgAndInfo span.juhuasuanTitle{
+span.juhuasuanTitle{
     color: #ffc057;
     font-weight: bold;
 }
 
-div.infoInimgAndInfo div.productPriceDiv{
+div.productPriceDiv{
     background-image: url(site/priceBackground.png);
     height:102px;
     padding: 10px;
     color: #666666;
 }
 
-div.infoInimgAndInfo div.gouwujuanDiv{
+div.gouwujuanDiv{
     margin-top: 5px;
 }
 
-div.infoInimgAndInfo div.originalDiv{
+div.originalDiv{
     margin-top: 5px;
 }
 
-div.infoInimgAndInfo span.originalPriceDesc{
+ span.originalPriceDesc{
     color:#999999;
     display: inline-block;
     width: 68px;
 }
 
-div.infoInimgAndInfo span.originalPrice{
+span.originalPrice{
     font-family: Arial;
     font-size:12px;
     color: #333333;
     text-decoration: line-through;
 }
 
-div.infoInimgAndInfo span.promotionPriceYuan{
+span.promotionPriceYuan{
     font-family: Arial;
     font-size:18px;
     color: #c40000;
 }
 
-div.infoInimgAndInfo span.promotionPrice{
+span.promotionPrice{
     color: #c40000;
     font-family: Arial;
     font-size:30px;
     font-weight: bold;
 }
 
-div.infoInimgAndInfo span.promotionPriceDesc{
+span.promotionPriceDesc{
     color:#999999;
     display: inline-block;
     width: 68px;
@@ -116,14 +113,14 @@ div.infoInimgAndInfo span.promotionPriceDesc{
     top:-10px;
 }
 
-div.infoInimgAndInfo div.productSaleAndReviewNumber{
+div.productSaleAndReviewNumber{
     margin: 20px 0px;
     border-top: 1px dotted #c9c9c9;
     border-bottom:1px dotted #c9c9c9 ;
     padding: 10px;
 }
 
-div.infoInimgAndInfo div.productSaleAndReviewNumber div{
+div.productSaleAndReviewNumber div{
     display: inline-block;
     width: 49%;
     text-align: center;
@@ -131,36 +128,43 @@ div.infoInimgAndInfo div.productSaleAndReviewNumber div{
     font-size:12px;
 }
 
-div.infoInimgAndInfo div.productSaleAndReviewNumber div:first-child{
+div.productSaleAndReviewNumber div:first-child{
     border-right: 1px solid #e5dfda;
 }
 
-div.infoInimgAndInfo div.productNumber{
+div.productNumber{
     color:#999999;
 }
 
 
-div.infoInimgAndInfo span.productNumberSettingSpan{
+ span.productNumberSettingSpan{
     border: 1px solid #999;
     display: inline-block;
     width: 43px;
     height: 32px;
-    padding-top:7px;
+    padding:7px 0;
 }
 /*
 写到了这里
 */
 
-div.infoInimgAndInfo input.productNumberSetting{
+input.productNumberSetting{
     border: 0px;
     height: 80%;
     width: 80%;
 }
-div.productNumber span.updown img{
+span.updown img{
     display:inline-block;
     vertical-align:top;
 }
-div.productNumber span.updown{
+
+
+span.glyphicon{
+    font-size: 6px;
+}
+
+
+span.updown{
     border: 1px solid #999;
     display: block;
     width: 20px;
@@ -168,11 +172,11 @@ div.productNumber span.updown{
     text-align: center;
     padding-top:4px;
 }
-div.productNumber span.updownMiddle{
+span.updownMiddle{
     height: 4px;
     display: block;
 }
-div.productNumber span.arrow{
+span.arrow{
     display: inline-block;
     width: 22px;
     height: 32px;
@@ -181,10 +185,10 @@ div.productNumber span.arrow{
 div.serviceCommitment{
     margin: 20px 0px;
 }
-div.infoInimgAndInfo span.serviceCommitmentDesc{
+span.serviceCommitmentDesc{
     color: #999999;
 }
-div.infoInimgAndInfo span.serviceCommitmentLink a{
+span.serviceCommitmentLink a{
     color: #666666;
 }
 div.buyDiv{
@@ -224,8 +228,5 @@ a:hover{
 }
 .redColor{
     color: #C40000;
-}
-.boldWord{
-    font-weight: bold;
 }
 
