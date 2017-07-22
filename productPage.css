@@ -230,3 +230,66 @@ a:hover{
     color: #C40000;
 }
 
+div.productDetailDiv{
+    width: 790px;
+    margin:40px auto;
+}
+
+a.selected{
+    border-right: 1px solid #cfbfb1;
+    border-left: 1px solid #cfbfb1;
+    color:#b10001;
+    display: inline-block;
+    font-weight: bold;
+    line-heihgt:46px;
+    width:90px;
+    text-align: center;
+    position:relative;
+}
+
+a.selected:before{
+    content:"";
+    display: block;
+    border:1px #b00000 solid;
+    width:90px;
+    height:0;
+    position:absolute;
+    top:-1px;
+    margin-left: -1px;
+}
+
+a.selected:after{
+    content: "";
+    display: block;
+    border: 1px solid #b00000;
+    border-color: transparent transparent;
+    width:0px;
+    height:0px;
+    position:absolute;
+    top:-1px;
+    left:50%;
+    margin-left: -5px;
+}
+
+a.productDetailTopReviewLink{
+    padding: 0px 20px;
+    border-right:1px dotted #d2d2d2;
+    color:#333333;
+}
+
+span.productDetailTopReviewLinkNumber{
+    color: #3355b9;
+}
+
+div.productParamter{
+    color:#999999;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+div.productParamterList span{
+    display: block;
+    width:790px;
+    margin: 20px 0px;
+}
+
