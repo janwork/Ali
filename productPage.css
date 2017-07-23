@@ -2,6 +2,16 @@
     font-weight: bold;
 }
 
+.productPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+a.productReviewTopPartSelectedLink{
+    padding: 0px 20px;
+    color:#333333;
+}
+
 div.imgAndInfo{
     margin:40px 20px;
 }
@@ -9,6 +19,70 @@ div.imgAndInfo{
 div.imgInimgAndInfo{
     float: left;
 }
+
+div.productReviewDiv{
+    width:790px;
+    margin:40px auto;
+}
+
+div.productReviewContentPart{
+    padding-top: 50px;
+}
+
+div.productReviewDiv{
+    display: none;
+}
+
+
+div.productDetailTopPart{
+    border:1px solid #dfdedf;
+    border-left-width:0px;
+    line-height: 46px;
+}
+
+div.productReviewTopPart{
+    border:1px solid #dfdedf;
+}
+
+div.productReviewItem{
+    border-bottom:1px solid #e3e3e3;
+    margin: 10px 0px;
+}
+
+div.productReviewItemDesc{
+    width:80%;
+    display: inline-block;
+    color: #333333;
+    height:94px;
+    margin:5px 20px;
+    float:left;
+}
+
+div.productReviewItemDate{
+    margin: 15px 0px 0px 0px;
+    color: #CCCCCC;
+}
+
+div.productReviewItemUserInfo{
+    color: #404040;
+    margin: 5px  20px;
+    padding: 20px 0;
+}
+
+div.userInfoGrayPart{
+    color:#999999;
+}
+
+div.productReviewTopPartSelectedLink{
+    padding: 0px 20px;
+    color: #333333;
+}
+
+div.productReviewItemContent{
+    
+}
+
+
 
  img.bigImg{
     width:400px;
