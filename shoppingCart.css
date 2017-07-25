@@ -1,0 +1,61 @@
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+div.cartDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    color:black;
+}
+
+div.cartTitle button{
+    background-color: #AAAAAA;
+    border:1px solid #AAAAAA;
+    color:white;
+    width: 53px;
+    height:25px;
+    border-radius: 2px;
+}
+
+span.cartTitlePrice{
+    color:#c40000;
+    font-size:14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+div.cartFoot{
+    background-color: #e5e5e5;
+    line-height:50px;
+    margin: 20px 0px;
+    color: black;
+    padding-left: 20px;
+}
+
+div.cartFoot button{
+    background-color: #AAAAAA;
+    border: 0px solid #AAAAAA;
+    color:white;
+    width: 120px;
+    height:50px;
+    font-size:20px;
+    text-align: center;
+}
+
+img.selectAllItem{
+    cursor: pointer;
+}
+
+span.cartSumNumber{
+    font-size:#c40000;
+    font-weight: bold;
+    font-size:16px;
+}
+
+span.cartSumPrice{
+    color: #C40000;
+    font-weight: bold;
+    font-size: 20px;
+}
