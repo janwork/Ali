@@ -17,7 +17,6 @@ $(document).ready(function () {
                 img = new Image();
                 img.src = bigImageURL;
                 img.onload = function(){
-                    console.log(bigImageURL);
                     $("div.img4load").append($(img));
                 };
             });
@@ -66,6 +65,8 @@ $(document).ready(function () {
         $("div.productReviewDiv").hide();
         $("div.productDetailDiv").show();
     });
+
+    
 
 
 

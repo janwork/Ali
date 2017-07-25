@@ -38,6 +38,7 @@ div.productDetailTopPart{
 }
 
 div.productReviewTopPart{
+    height: 48px;
     border:1px solid #dfdedf;
 }
 
@@ -70,13 +71,14 @@ div.userInfoGrayPart{
     color:#999999;
 }
 
-div.productReviewTopPartSelectedLink{
+.productReviewTopPartSelectedLink{
     padding: 0px 20px;
     color: #333333;
 }
 
-div.productReviewItemContent{
-    
+.productDetailTopReviewLink{
+    padding: 0px 20px;
+    color: #333333;
 }
 
 
@@ -319,26 +321,29 @@ a.selected{
 }
 
 a.selected:before{
-    content:"";
+    border-color: #b00000;
+    border-style: solid;
+    border-width: 1px;
+    content: "";
     display: block;
-    border:1px #b00000 solid;
-    width:90px;
-    height:0;
-    position:absolute;
-    top:-1px;
+    width: 90px;
+    height: 0;
+    position: absolute;
+    top: -1px;
     margin-left: -1px;
 }
 
 a.selected:after{
+    border-color: #b00000 transparent transparent;
+    border-style: solid;
+    border-width: 5px;
     content: "";
     display: block;
-    border: 1px solid #b00000;
-    border-color: transparent transparent;
-    width:0px;
-    height:0px;
-    position:absolute;
-    top:-1px;
-    left:50%;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -1px;
+    left: 50%;
     margin-left: -5px;
 }
 
@@ -346,6 +351,10 @@ a.productDetailTopReviewLink{
     padding: 0px 20px;
     border-right:1px dotted #d2d2d2;
     color:#333333;
+}
+
+a.productDetailTopPartSelectedLink{
+    
 }
 
 span.productDetailTopReviewLinkNumber{

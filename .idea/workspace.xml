@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="356d6b19-5ab5-46cb-90ab-be13979bf695" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/productPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productPage.css" afterPath="$PROJECT_DIR$/productPage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productPage.html" afterPath="$PROJECT_DIR$/productPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productPage.js" afterPath="$PROJECT_DIR$/productPage.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,9 +25,10 @@
       <file leaf-file-name="productPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="20" column="86" lean-forward="false" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+            <state relative-caret-position="273">
+              <caret line="290" column="57" lean-forward="false" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="57" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -36,7 +36,6 @@
                 <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#span#0;n#span#1;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -68,7 +67,6 @@
                 <element signature="n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -78,8 +76,8 @@
       <file leaf-file-name="productPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="53" column="123" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="125">
+              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,11 +86,11 @@
       <file leaf-file-name="productPage.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/productPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding>
-                <element signature="e#2158#2224#0" expanded="false" />
-                <element signature="e#2244#2346#0" expanded="false" />
+                <element signature="e#2210#2276#0" expanded="false" />
+                <element signature="e#2296#2398#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,9 +109,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>div.productItem</find>
-      <find>copyright</find>
-      <find>div.copyright</find>
       <find>ind</find>
       <find>carousel-of-product</find>
       <find>categoryWithCarousel</find>
@@ -137,10 +132,13 @@
       <find>productReviewItemUserInfo</find>
       <find>productReviewItemContent</find>
       <find>productReviewItemDate</find>
-      <find>productDetailTopPartSelectedLink</find>
       <find>productReviewDiv</find>
       <find>productDetailTopPart</find>
       <find>bigImageURL=&quot;img/productSingle/8620.jpg&quot;</find>
+      <find>selected</find>
+      <find>productReviewTopPart</find>
+      <find>productDetailTopPartSelectedLink</find>
+      <find>productReviewTopPartSelectedLink</find>
     </findStrings>
     <replaceStrings>
       <replace>site</replace>
@@ -182,9 +180,9 @@
         <option value="$PROJECT_DIR$/sortPrice.js" />
         <option value="$PROJECT_DIR$/sortPrice.html" />
         <option value="$PROJECT_DIR$/productList.html" />
+        <option value="$PROJECT_DIR$/productPage.js" />
         <option value="$PROJECT_DIR$/productPage.html" />
         <option value="$PROJECT_DIR$/productPage.css" />
-        <option value="$PROJECT_DIR$/productPage.js" />
       </list>
     </option>
   </component>
@@ -372,15 +370,15 @@
       <workItem from="1500475165445" duration="5776000" />
       <workItem from="1500693959839" duration="2519000" />
       <workItem from="1500739249874" duration="5672000" />
-      <workItem from="1500905913927" duration="2128000" />
+      <workItem from="1500905913927" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100221000" />
+    <option name="totallyTimeSpent" value="102964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="1" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1892911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -769,30 +767,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productPage.css">
+    <entry file="file://$PROJECT_DIR$/productPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#2158#2224#0" expanded="false" />
-            <element signature="e#2244#2346#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/productPage.js">
+    <entry file="file://$PROJECT_DIR$/productPage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="53" column="123" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="e#2210#2276#0" expanded="false" />
+            <element signature="e#2296#2398#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/productPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="20" column="86" lean-forward="false" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+        <state relative-caret-position="273">
+          <caret line="290" column="57" lean-forward="false" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="57" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -800,7 +799,6 @@
             <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#span#0;n#span#1;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -832,7 +830,6 @@
             <element signature="n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#9;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
