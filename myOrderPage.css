@@ -1,0 +1,57 @@
+div.boughtDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+
+div.orderType div{
+    border-bottom: 2px solid #E8E8E8;
+    float:left;
+}
+
+div.orderType a{
+    border-right: 1px solid #E8E8E8;
+    display: inline-block;
+    font-size:16px;
+    font-weight: bold;
+    color:black;
+    margin-bottom:10px;
+    padding: 0px  20px;
+    text-decoration: none;
+}
+
+div.orderType a:hover{
+    color: #c40000;
+    text-decoration: none;
+}
+div.selectedOrderType{
+    border-bottom: 2px solid #c40000;
+}
+
+div.selectedOrderType a{
+    color: #c40000;
+}
+
+div.orderTypeLastOne{
+    overflow: hidden;
+    float:none !important;
+    border-bottom: 2px solid #E8E8E8;
+    height:35px;
+}
+
+a.noRightborder{
+    border-right-width: 0px !important;
+}
+
+table.orderListTitleTable{
+    border:1px solid #E8E8E8;
+    width:100%;
+    margin: 20px 0px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size:12px;
+    
+}
+
+table.orderListTitleTable td{
+    padding:12px 0px;
+}

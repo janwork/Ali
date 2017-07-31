@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="myOrderPage.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="boughtDiv">
+    <div class="orderType">
+        <div class="selectedOrderType"><a href="#" orderstatus="all">所有订单</a></div>
+        <div><a href="#" orderstatus="waitPay">代收款</a></div>
+        <div><a href="#" orderstatus="waitDelivery">待发货</a></div>
+        <div><a href="#" orderstatus="waitConfirm">待收货</a></div>
+        <div><a href="#" orderstatus="waitReview" class="noRightborder">待评价</a></div>
+        <div class="orderTypeLastOne"></div>
+    </div>
+
+    <div style="clear:both"></div>
+    <div class="orderListTitle">
+        <table class="orderListTitleTable">
+            <tbody>
+             <tr>
+                 <td>宝贝</td>
+                 <td width="100px">单价</td>
+                 <td width="100px">数量</td>
+                 <td width="120px">实付款</td>
+                 <td width="100px">交易操作</td>
+             </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
