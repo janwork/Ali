@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color:#999;
+}
+
 div.boughtDiv{
     max-width: 1013px;
     margin: 10px auto;
@@ -44,8 +49,10 @@ a.noRightborder{
 
 table.orderListTitleTable{
     border:1px solid #E8E8E8;
+    border-top:0px;
+    border-bottom:0px;
     width:100%;
-    margin: 20px 0px;
+    margin: 0px 0px;
     background-color: #f5f5f5;
     text-align: center;
     font-size:12px;
@@ -54,4 +61,129 @@ table.orderListTitleTable{
 
 table.orderListTitleTable td{
     padding:12px 0px;
+}
+
+table.orderListItemTable{
+    border:2px solid #ececec;
+    border-bottom: 0px;
+    border-top: 0px;
+    width:100%;
+    margin:0px 0px;
+    font-size:12px;
+}
+
+table.orderListItemTable:hover{
+    border:2px solid #AAAAAA !important;
+}
+
+table.orderListItemTable td{
+    padding:8px 10px;
+}
+
+tr.orderListItemFirstTR{
+    background-color: #F1F1F1;
+}
+
+div.orderItemWangWangGif{
+    display: inline-block;
+    width:67px;
+    height:22px;
+    background-image: url(site/wangwang.gif);
+    background-repeat: no-repeat;   
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: -0px 0px;
+    position:relative;
+    top:0px;
+    left:2px;
+}
+
+td.orderItemDeleteTD{
+    text-align: right;
+}
+
+span.orderListItemDelete{
+    display: inline-block;
+    margin: 0px 10px;
+    color: #999999;
+    font-size:16px;
+}
+
+div.orderListItemProductLinkOutDiv{
+    position: relative;
+    height:80px;
+}
+
+div.orderListItemProductLinkInnerDiv{
+    position: absolute;
+    bottom: 0px;
+}
+
+div.orderListItemProductOriginalPrice{
+    color: #999999;
+    font-size:14px;
+}
+
+div.orderListItemProductPrice{
+    color:#3c3c3c;
+    font-size:14px;
+}
+
+td.orderListItemNumberTD{
+    text-align: center;
+}
+
+td.orderItemOrderInfoPartTD{
+    border:solid 1px #ececec;
+}
+
+span.orderListItemNumber{
+    color:#3c3c3c;
+}
+
+td.orderListItemProductRealPriceTD{
+    text-align: center;
+}
+
+div.orderListItemProductRealPrice{
+    color:#3c3c3c;
+    font-size:14px;
+    font-weight: bold;
+}
+
+div.orderListItemPriceWithTransport{
+    color:#6C6c6C;
+    font-size:12px;
+}
+
+td.orderListItemButtonTD {
+    text-align: center;
+}
+
+button.orderListItemReview{
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #3C3C3C;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+button.orderListItemReview:hover{
+    border-color: #c40000;
+    color:#c40000;
+}
+
+button.orderListItemConfirm{
+    background-color: #66b6ff;
+    border-radius: 2px;
+    color:white;
+    font-size:12px;
+    font-weight: bold;
+    border-width: 0px;
+    padding:6px 12px;
+}
+
+button.orderListItemConfirm:hover{
+    background-color: #118adb;
 }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="356d6b19-5ab5-46cb-90ab-be13979bf695" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myOrderPage.css" afterPath="$PROJECT_DIR$/myOrderPage.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myOrderPage.html" afterPath="$PROJECT_DIR$/myOrderPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -97,7 +99,7 @@
       <file leaf-file-name="shoppingCart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shoppingCart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="189">
               <caret line="7" column="49" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -109,25 +111,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myOrderPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myOrderPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myOrderPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="38" column="77" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="77" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myOrderPage.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myOrderPage.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myOrderPage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="732">
+              <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -168,12 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>left-mark</find>
-      <find>productItem</find>
-      <find>img</find>
-      <find>div.productsAsideCategorys div.row div.seperator</find>
-      <find>img/</find>
-      <find>homepageCategoryProducts</find>
       <find>#nowhere</find>
       <find>div.rightMenu span</find>
       <find>div.categoryWithCarousel div.rightMenu</find>
@@ -198,6 +193,12 @@
       <find>cartDiv</find>
       <find>selectAllItem</find>
       <find>946</find>
+      <find>orderListItemPriceWithTranspor</find>
+      <find>a</find>
+      <find>table</find>
+      <find>orderListItemTable</find>
+      <find>orderListItem</find>
+      <find>orderListTitleTable</find>
     </findStrings>
     <replaceStrings>
       <replace>site</replace>
@@ -245,8 +246,8 @@
         <option value="$PROJECT_DIR$/shoppingCart.css" />
         <option value="$PROJECT_DIR$/shoppingCart.js" />
         <option value="$PROJECT_DIR$/shoppingCart.html" />
-        <option value="$PROJECT_DIR$/myOrderPage.css" />
         <option value="$PROJECT_DIR$/myOrderPage.html" />
+        <option value="$PROJECT_DIR$/myOrderPage.css" />
       </list>
     </option>
   </component>
@@ -257,8 +258,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="243" />
-    <option name="y" value="129" />
+    <option name="x" value="-8" />
+    <option name="y" value="25" />
     <option name="width" value="1364" />
     <option name="height" value="724" />
   </component>
@@ -438,16 +439,17 @@
       <workItem from="1500905913927" duration="10679000" />
       <workItem from="1501165687807" duration="1069000" />
       <workItem from="1501419097696" duration="5282000" />
-      <workItem from="1501512300367" duration="4208000" />
+      <workItem from="1501512300367" duration="4715000" />
+      <workItem from="1501683578862" duration="1779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119331000" />
+    <option name="totallyTimeSpent" value="121617000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="243" y="129" width="1364" height="724" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="25" width="1364" height="724" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19155355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -888,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shoppingCart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="189">
           <caret line="7" column="49" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -899,23 +901,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myOrderPage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myOrderPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="38" column="77" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="77" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myOrderPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="74" column="30" lean-forward="false" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
