@@ -7,6 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="myOrderPage.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
+    <script src="myOrderPage.js"></script>
 </head>
 <body>
 
@@ -94,7 +95,7 @@
             </tbody>
 
         </table>
-        <table oid="945" orderstatus = "waitReview" class="orderListItemTable">
+        <table oid="945" orderstatus = "waitConfirm" class="orderListItemTable">
             <tbody>
             <tr class="orderListItemFirstTR">
                 <td colspan="2">
@@ -150,6 +151,184 @@
             </tr>
 
             </tbody>
+
+        </table>
+        <table class="orderListItemTable" orderStatus="waitDelivery" oid="963">
+            <tr class="orderListItemFirstTR">
+                <td colspan="2">
+                    <b>2016-11-22 11:21:16</b>
+                    <span>订单号: 201611221121168848610 
+					</span>
+                </td>
+                <td  colspan="2"><img width="13px" src="site/orderItemTmall.png">天猫商场</td>
+                <td colspan="1">
+                    <a class="wangwanglink" href="#">
+                        <div class="orderItemWangWangGif"></div>
+                    </a>
+
+                </td>
+                <td class="orderItemDeleteTD">
+                    <a class="deleteOrderLink" oid="963" href="#">
+                        <span  class="orderListItemDelete glyphicon glyphicon-trash"></span>
+                    </a>
+
+                </td>
+            </tr>
+
+            <tr class="orderItemProductInfoPartTR" >
+                <td class="orderItemProductInfoPartTD"><img width="80" height="80" src="site/productSingle_middle/7014.jpg"></td>
+                <td class="orderItemProductInfoPartTD">
+                    <div class="orderListItemProductLinkOutDiv">
+                        <a href="#">劳迪莱斯男士手包休闲手拿包牛皮大容量钱包男包软面小包包手抓包</a>
+                        <div class="orderListItemProductLinkInnerDiv">
+                            <img src="site/creditcard.png" title="支持信用卡支付">
+                            <img src="site/7day.png" title="消费者保障服务,承诺7天退货">
+                            <img src="site/promise.png" title="消费者保障服务,承诺如实描述">
+                        </div>
+                    </div>
+                </td>
+                <td  class="orderItemProductInfoPartTD" width="100px">
+
+                    <div class="orderListItemProductOriginalPrice">￥185.00</div>
+                    <div class="orderListItemProductPrice">￥157.25</div>
+
+                </td>
+
+                <td valign="top" rowspan="1" class="orderListItemNumberTD orderItemOrderInfoPartTD" width="100px">
+                    <span class="orderListItemNumber">1</span>
+                </td>
+                <td valign="top" rowspan="1" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
+                    <div class="orderListItemProductRealPrice">￥157.25</div>
+                    <div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+                </td>
+                <td valign="top" rowspan="1" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
+
+                    <span>待发货</span>
+                    <button class="btn btn-info btn-sm ask2delivery" link="admin_order_delivery?id=963">催卖家发货</button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <table class="orderListItemTable" orderStatus="waitPay" oid="962">
+            <tr class="orderListItemFirstTR">
+                <td colspan="2">
+                    <b>2016-11-22 11:21:11</b>
+                    <span>订单号: 20161122112111696734 
+					</span>
+                </td>
+                <td  colspan="2"><img width="13px" src="site/orderItemTmall.png">天猫商场</td>
+                <td colspan="1">
+                    <a class="wangwanglink" href="#">
+                        <div class="orderItemWangWangGif"></div>
+                    </a>
+
+                </td>
+                <td class="orderItemDeleteTD">
+                    <a class="deleteOrderLink" oid="962" href="#">
+                        <span  class="orderListItemDelete glyphicon glyphicon-trash"></span>
+                    </a>
+
+                </td>
+            </tr>
+
+            <tr class="orderItemProductInfoPartTR" >
+                <td class="orderItemProductInfoPartTD"><img width="80" height="80" src="site/productSingle_middle/8510.jpg"></td>
+                <td class="orderItemProductInfoPartTD">
+                    <div class="orderListItemProductLinkOutDiv">
+                        <a href="#">女巫2016欧洲站夏季新品欧美时尚绣花衬衣上衣九分裤两件套装高端</a>
+                        <div class="orderListItemProductLinkInnerDiv">
+                            <img src="site/creditcard.png" title="支持信用卡支付">
+                            <img src="site/7day.png" title="消费者保障服务,承诺7天退货">
+                            <img src="site/promise.png" title="消费者保障服务,承诺如实描述">
+                        </div>
+                    </div>
+                </td>
+                <td  class="orderItemProductInfoPartTD" width="100px">
+
+                    <div class="orderListItemProductOriginalPrice">￥928.00</div>
+                    <div class="orderListItemProductPrice">￥835.20</div>
+
+                </td>
+
+                <td valign="top" rowspan="1" class="orderListItemNumberTD orderItemOrderInfoPartTD" width="100px">
+                    <span class="orderListItemNumber">1</span>
+                </td>
+                <td valign="top" rowspan="1" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
+                    <div class="orderListItemProductRealPrice">￥835.20</div>
+                    <div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+                </td>
+                <td valign="top" rowspan="1" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
+
+                    <a href="#">
+                        <button  class="orderListItemReview">评价</button>
+                    </a>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <table class="orderListItemTable" orderStatus="waitReview" oid="961">
+            <tr class="orderListItemFirstTR">
+                <td colspan="2">
+                    <b>2016-11-22 11:21:05</b>
+                    <span>订单号: 201611221121051612916 
+					</span>
+                </td>
+                <td  colspan="2"><img width="13px" src="site/orderItemTmall.png">天猫商场</td>
+                <td colspan="1">
+                    <a class="wangwanglink" href="#">
+                        <div class="orderItemWangWangGif"></div>
+                    </a>
+
+                </td>
+                <td class="orderItemDeleteTD">
+                    <a class="deleteOrderLink" oid="961" href="#">
+                        <span  class="orderListItemDelete glyphicon glyphicon-trash"></span>
+                    </a>
+
+                </td>
+            </tr>
+
+            <tr class="orderItemProductInfoPartTR" >
+                <td class="orderItemProductInfoPartTD"><img width="80" height="80" src="site/productSingle_middle/10170.jpg"></td>
+                <td class="orderItemProductInfoPartTD">
+                    <div class="orderListItemProductLinkOutDiv">
+                        <a href="#">REEBABY儿童安全座椅9个月-12岁宝宝婴儿汽车用坐椅车载 3C认证</a>
+                        <div class="orderListItemProductLinkInnerDiv">
+                            <img src="site/creditcard.png" title="支持信用卡支付">
+                            <img src="site/7day.png" title="消费者保障服务,承诺7天退货">
+                            <img src="site/promise.png" title="消费者保障服务,承诺如实描述">
+                        </div>
+                    </div>
+                </td>
+                <td  class="orderItemProductInfoPartTD" width="100px">
+
+                    <div class="orderListItemProductOriginalPrice">￥1,280.00</div>
+                    <div class="orderListItemProductPrice">￥1,216.00</div>
+
+                </td>
+
+                <td valign="top" rowspan="1" class="orderListItemNumberTD orderItemOrderInfoPartTD" width="100px">
+                    <span class="orderListItemNumber">1</span>
+                </td>
+                <td valign="top" rowspan="1" width="120px" class="orderListItemProductRealPriceTD orderItemOrderInfoPartTD">
+                    <div class="orderListItemProductRealPrice">￥1,216.00</div>
+                    <div class="orderListItemPriceWithTransport">(含运费：￥0.00)</div>
+                </td>
+                <td valign="top" rowspan="1" class="orderListItemButtonTD orderItemOrderInfoPartTD" width="100px">
+
+                    <a href="#">
+                        <button  class="orderListItemReview">评价</button>
+                    </a>
+
+                </td>
+
+            </tr>
 
         </table>
     </div>
