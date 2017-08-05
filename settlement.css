@@ -1,0 +1,47 @@
+div.buyPageDiv{
+    margin:20px auto;
+    max-width: 1013px;
+}
+
+div.addressTip,div.productListTip{
+    color: #333333;
+    font-size:16px;
+    font-weight:bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+div.address{
+    margin:20px 5px;
+    text-align: left;
+}
+
+table.addressTable{
+    margin:20px 20px;
+    width:600px;
+    font-size:12px;
+}
+
+table.addressTable td{
+    color: #333333;
+    text-align: left;
+    vertical-align: top;
+    padding-right:5px;
+    height:20px;
+}
+
+table.addressTable td textarea{
+    border:1px solid #AFAFAF;
+    margin-bottom: 10px;
+    width:400px;
+}
+
+table.addressTable td input{
+    border:1px solid #AFAFAF;
+    width:200px;
+}
+
+span.redStar{
+    color:red;
+    font-size:8px;
+}

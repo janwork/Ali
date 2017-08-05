@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="settlement.css">
+</head>
+<body>
+<div class="buyPageDiv">
+    <div class="buyFlow">
+        <img src="site/simpleLogo.png" alt="" class="pull-left">
+        <img src="site/buyflow.png" alt="" class="pull-right">
+        <div style="clear:both"></div>
+    </div>
+
+    <div class="address">
+        <div class="addressTip">输入收货地址</div>
+        <div>
+            <table class="addressTable">
+                <tbody>
+                <tr>
+                    <td class="firstColumn">详情地址 <span class="redStar">*</span></td>
+                    <td><textarea name="address" id="" cols="30" rows="10" placeholder="建议您如实填写详细收货地址，例如接到名称，门牌好吗，楼层和房间号等信息"   ></textarea></td>
+                </tr>
+
+
+                <tr>
+                    <td>邮政编码</td>
+                    <td><input name="post" type="text" placeholder="如果您不清楚邮递区号，请填写000000"></td>
+                </tr>
+
+                <tr>
+                    <td>收货人姓名<span class="redStar">*</span></td>
+                    <td><input name="receive" type="text" placeholder="长度不超过25个字符"></td>
+                </tr>
+
+                <tr>
+                    <td>手机号码 <span class="redStar">*</span></td>
+                    <td><input name="mobile" type="text" placeholder="请输入11位手机号码"></td>
+                </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+    
+    <div class="productList">
+        <div class="productListTip">确认订单信息</div>
+        <table class="productListTable">
+            <thead>
+            <tr>
+                <th class="productListTableFirstColumn" colspan="2">
+                    <img class="tmallbuy" src="site/tmallbuy.png" alt="">
+                    <a href="#" class="marketLink">店铺：天猫店铺</a>
+                    <a href="" class="wangwangLink"><span class="wangwangGif"></span></a>
+                </th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>小计</th>
+                <th>配送方式</th>
+            </tr>
+            <tr class="rowborder">
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </thead>
+
+            <tbody class="productListTableTbody">
+             <tr class="orderItemTR">
+                 <td class="orderItemFirstTD"><img width="20px" class="orderItemImg" src="site/productSingle_middle/3796.jpg" alt=""></td>
+                 <td class="orderItemProductInfo">
+                     <a href="#" class="orderItemProductLink"> 公众智能扫地机器人家用全自动电动清洁地毯擦拖地一体机吸尘器</a>
+                     <img src="site/creditcard.png" title="支持信用卡支付">
+                     <img src="site/7day.png" title="消费者保障服务,承诺7天退货">
+                     <img src="site/promise.png" title="消费者保障服务,承诺如实描述">
+                 </td>
+                 
+                 <td>
+                     <span class="orderItemProductPrice">￥2,124.15</span>
+                 </td>
+
+                 <td>
+                     <span class="orderItemProductNumber">1</span>
+                 </td>
+
+                 <td>
+                     <span class="orderItemUnitSum"> ￥7,028.10</span>
+                 </td>
+
+                 <td  class="orderItemLastTD" rowspan="5">
+                     <label class="orderItemDeliveryLabel"> <input type="radio" checked="checked" value="">普通配送</label>
+                     <select class="orderItemDeliverySelect">
+                         <option value="">快递 免邮费</option>
+                     </select>
+                 </td>
+
+             </tr>
+             <tr class="orderItemTR">
+                 <td class="orderItemFirstTD"><img width="20px" class="orderItemImg" src="site/productSingle_middle/3796.jpg" alt=""></td>
+                 <td class="orderItemProductInfo">
+                     <a href="#" class="orderItemProductLink"> Philips/飞利浦 HR1897/30破壁微榨原汁机 多功能家用果汁榨汁机</a>
+                     <img src="site/creditcard.png" title="支持信用卡支付">
+                     <img src="site/7day.png" title="消费者保障服务,承诺7天退货">
+                     <img src="site/promise.png" title="消费者保障服务,承诺如实描述">
+                 </td>
+
+                 <td>
+                     <span class="orderItemProductPrice">￥7,124.15</span>
+                 </td>
+
+                 <td>
+                     <span class="orderItemProductNumber">1</span>
+                 </td>
+
+                 <td>
+                     <span class="orderItemUnitSum"> ￥7,028.10</span>
+                 </td>
+
+                 <td  class="orderItemLastTD" rowspan="5">
+                     <label class="orderItemDeliveryLabel"> <input type="radio" checked="checked" value="">普通配送</label>
+                     <select class="orderItemDeliverySelect">
+                         <option value="">快递 免邮费</option>
+                     </select>
+                 </td>
+
+             </tr>
+
+            </tbody>
+
+        </table>
+        <div class="orderItemSumDiv">
+            <div class="pull-right">
+                <span class="leaveMessageText">给卖家留言:</span>
+                <span>
+                        <img src="site/leaveMessage.png" class="leaveMeassge" alt="">
+                    </span>
+
+                <span class="leaveMessageTextareaSpan" style="display:none">
+                        <textarea class="leaveMessageTextarea" cols="30" rows="10"></textarea>
+                        <div>
+                            <span>你还可以输入200个字符</span>
+                        </div>
+                    </span>
+
+                <span class="pull-right">店铺合计(含运费): ￥9,152.25</span>
+            </div>
+        </div>
+        <div class="orderItemTotalSumDiv">
+            <div class="pull-right">
+                <span>实付款</span>
+                <span class="orderItemTotalSumSpan">￥9,152.25</span>
+            </div>
+        </div>
+        
+        <div class="sumbitOrderDiv">
+            <button class="submitOrderButton" type="button">提交订单</button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
