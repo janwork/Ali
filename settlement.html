@@ -6,7 +6,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"type="text/javascript"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="settlement.css">
 </head>
 <body>
@@ -136,14 +135,14 @@
 
         </table>
         <div class="orderItemSumDiv">
-            <div class="pull-right">
+            <div>
                 <span class="leaveMessageText">给卖家留言:</span>
                 <span>
-                        <img src="site/leaveMessage.png" class="leaveMeassge" alt="">
+                        <img src="site/leaveMessage.png" class="leaveMessageImg" alt="">
                     </span>
 
                 <span class="leaveMessageTextareaSpan" style="display:none">
-                        <textarea class="leaveMessageTextarea" cols="30" rows="10"></textarea>
+                        <textarea class="leaveMessageTextarea"></textarea>
                         <div>
                             <span>你还可以输入200个字符</span>
                         </div>
@@ -158,13 +157,20 @@
                 <span class="orderItemTotalSumSpan">￥9,152.25</span>
             </div>
         </div>
-        
         <div class="sumbitOrderDiv">
             <button class="submitOrderButton" type="button">提交订单</button>
         </div>
 
     </div>
 </div>
+
+<script>
+    $("img.leaveMessageImg").click(function () {
+            $("img.leaveMessageImg").hide();
+            $("span.leaveMessageTextareaSpan").show();
+            $("div.orderItemSumDiv").css("height","100px");
+    });
+</script>
 
 </body>
 </html>
